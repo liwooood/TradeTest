@@ -12,7 +12,7 @@ public class MsgHeader {
     private byte msgType;
     private int functionNo;
 
-    public final static int MSG_HEADER_SIZE = 14;
+    public final static int MSG_HEADER_SIZE = 23;
     //private byte[] msgHeader = new byte[MSG_HEADER_SIZE];
 
 
