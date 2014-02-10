@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e013e11-a2a7-4615-9361-5f74b126d0e2" name="Default" comment="Initial commit&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/trade_ssl.jks" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp4/TcpOldTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cssweb/util/Util.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/pkgheader.proto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/proto2cpp.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/Client.java" afterPath="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/Client.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/MsgHeader.java" afterPath="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/MsgHeader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/ssl/SSLTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/ssl/SSLTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/sslpb/pb/SslPbTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/sslpb/pb/SslPbTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+    <list default="true" id="5e013e11-a2a7-4615-9361-5f74b126d0e2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TradeTest.iws" />
@@ -1004,7 +993,7 @@
       <workItem from="1390646690556" duration="1503000" />
       <workItem from="1390970387714" duration="621000" />
       <workItem from="1391486778959" duration="2069000" />
-      <workItem from="1391994325644" duration="19661000" />
+      <workItem from="1391994325644" duration="19694000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1390537310283</created>
@@ -1018,11 +1007,15 @@
       <created>1391493179793</created>
       <updated>1391493179793</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Initial commit&#10;">
+      <created>1392019389995</created>
+      <updated>1392019389995</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91136000" />
+    <option name="totallyTimeSpent" value="91169000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="824" extended-state="6" />
