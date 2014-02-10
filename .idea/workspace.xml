@@ -2,18 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e013e11-a2a7-4615-9361-5f74b126d0e2" name="Default" comment="Initial commit&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/http/HttpTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/trade_ssl.jks" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_4_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp4/TcpOldTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cssweb/util/Util.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/pkgheader.proto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/proto2cpp.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/Client.java" afterPath="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/Client.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/MsgHeader.java" afterPath="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/MsgHeader.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/ssl/SSLTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/ssl/SSLTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradeTest.iml" afterPath="$PROJECT_DIR$/TradeTest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/sslpb/pb/SslPbTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/sslpb/pb/SslPbTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TradeTest.iws" />
@@ -70,7 +69,7 @@
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/ssl/SSLTest.java" line="112" class="com.cssweb.trade.test.ssl.SSLTest" package="com.cssweb.trade.test.ssl">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/ssl/SSLTest.java" line="140" class="com.cssweb.trade.test.ssl.SSLTest" package="com.cssweb.trade.test.ssl">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -85,7 +84,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/ssl/SSLTest.java" line="95" class="com.cssweb.trade.test.ssl.SSLTest" package="com.cssweb.trade.test.ssl">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/ssl/SSLTest.java" line="120" class="com.cssweb.trade.test.ssl.SSLTest" package="com.cssweb.trade.test.ssl">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -100,7 +99,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/ssl/SSLTest.java" line="84" class="com.cssweb.trade.test.ssl.SSLTest" package="com.cssweb.trade.test.ssl">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/ssl/SSLTest.java" line="87" class="com.cssweb.trade.test.ssl.SSLTest" package="com.cssweb.trade.test.ssl">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -115,7 +114,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/ssl/SSLTest.java" line="26" class="com.cssweb.trade.test.ssl.SSLTest" package="com.cssweb.trade.test.ssl">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/ssl/SSLTest.java" line="29" class="com.cssweb.trade.test.ssl.SSLTest" package="com.cssweb.trade.test.ssl">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -140,19 +139,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="proto2cpp.bat" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/proto2cpp.bat">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="21" selection-start="604" selection-end="604" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="684">
+            <state line="2" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="-1.52" vertical-offset="0" max-vertical-offset="152">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SSLTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/ssl/SSLTest.java">
+      <file leaf-file-name="Pkgheader.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/quote/Pkgheader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="49" selection-start="2865" selection-end="2865" vertical-scroll-proportion="1.5268817" vertical-offset="1236" max-vertical-offset="2736">
+            <state line="9" column="3" selection-start="263" selection-end="263" vertical-scroll-proportion="-6.84" vertical-offset="0" max-vertical-offset="17784">
+              <folding>
+                <element signature="e#0#32878#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pkgheader.proto" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/pkgheader.proto">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="21" selection-start="256" selection-end="256" vertical-scroll-proportion="9.627451" vertical-offset="719" max-vertical-offset="1064">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SslPbTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/sslpb/pb/SslPbTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="144" column="43" selection-start="5444" selection-end="5444" vertical-scroll-proportion="0.0" vertical-offset="2603" max-vertical-offset="3173">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,64 +182,57 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataOutputStream.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/jdk7/src.zip!/java/io/DataOutputStream.java">
+      <file leaf-file-name="SocketInputStream.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/jdk7/src.zip!/java/net/SocketInputStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="0" selection-start="2842" selection-end="2842" vertical-scroll-proportion="0.0" vertical-offset="2014" max-vertical-offset="8018">
+            <state line="195" column="0" selection-start="5732" selection-end="5732" vertical-scroll-proportion="0.0" vertical-offset="3017" max-vertical-offset="4807">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomMessage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/CustomMessage.java">
+      <file leaf-file-name="SSLTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/ssl/SSLTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="678" selection-end="678" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="988">
+            <state line="22" column="0" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0" vertical-offset="2679" max-vertical-offset="3097">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KeyManagerFactory.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/jdk7/jre/lib/rt.jar!/javax/net/ssl/KeyManagerFactory.class">
+      <file leaf-file-name="CrashReportWatch.iml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://E:/CrashReport/CrashReportWatch/CrashReportWatch.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="45" selection-start="1318" selection-end="1318" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="684">
+            <state line="11" column="30" selection-start="748" selection-end="748" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="418">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HttpTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/http/HttpTest.java">
+      <file leaf-file-name="TcpOldTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp4/TcpOldTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="247">
-              <folding />
+            <state line="68" column="33" selection-start="1955" selection-end="1955" vertical-scroll-proportion="0.0" vertical-offset="994" max-vertical-offset="1634">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Client.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="127" column="19" selection-start="2809" selection-end="2809" vertical-scroll-proportion="0.0" vertical-offset="2163" max-vertical-offset="9481">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MsgHeader.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/MsgHeader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="31" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="2489">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TcpClientSync.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TcpClientSync.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/TcpClientSync.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="52" selection-start="2531" selection-end="2793" vertical-scroll-proportion="0.0" vertical-offset="2242" max-vertical-offset="2603">
+            <state line="28" column="23" selection-start="617" selection-end="617" vertical-scroll-proportion="0.6666667" vertical-offset="228" max-vertical-offset="2565">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Util.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/util/Util.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="9" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="950">
               <folding />
             </state>
           </provider>
@@ -239,10 +254,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/CustomMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/TcpClientSync.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/Client.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/MsgHeader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp4/TcpOldTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/ssl/SSLTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/proto2cpp.bat" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/sslpb/pb/quote/Pkgheader.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/quote/Pkgheader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/sslpb/pb/SslPbTest.java" />
       </list>
     </option>
   </component>
@@ -301,13 +321,17 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="TradeTest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -382,7 +406,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="quote" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -405,6 +429,70 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cssweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TradeTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TradeTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cssweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tcp4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TradeTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TradeTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cssweb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -438,6 +526,44 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="cssweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TradeTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TradeTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cssweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -468,17 +594,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="cssweb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="http" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -499,14 +625,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../XinYi" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cssweb.util" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Trade\TradeTest\src\main\resources" />
       <recent name="E:\Trade\TradeTest\src\main\java\com\cssweb\trade\test\tcp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SSLTest">
+  <component name="RunManager" selected="Application.Client">
     <configuration default="false" name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -560,6 +690,50 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TcpOldTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.cssweb.trade.test.tcp4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.cssweb.trade.test.tcp4.TcpOldTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TradeTest" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SslPbTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.cssweb.trade.test.sslpb.pb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.cssweb.trade.test.sslpb.pb.SslPbTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TradeTest" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -774,14 +948,18 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Client" />
       <item index="1" class="java.lang.String" itemvalue="Application.SSLTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TcpOldTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SslPbTest" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.SSLTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Client" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.Client" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TcpOldTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SslPbTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SSLTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -822,21 +1000,33 @@
       <workItem from="1390528338378" duration="18892000" />
       <workItem from="1390557366599" duration="2192000" />
       <workItem from="1390634747356" duration="6487000" />
-      <workItem from="1390642942415" duration="173000" />
+      <workItem from="1390642942415" duration="238000" />
+      <workItem from="1390646690556" duration="1503000" />
+      <workItem from="1390970387714" duration="621000" />
+      <workItem from="1391486778959" duration="2069000" />
+      <workItem from="1391994325644" duration="19661000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1390537310283</created>
       <updated>1390537310283</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit&#10;">
+      <created>1390643121042</created>
+      <updated>1390643121042</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial commit&#10;">
+      <created>1391493179793</created>
+      <updated>1391493179793</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67217000" />
+    <option name="totallyTimeSpent" value="91136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="824" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -851,15 +1041,15 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882884" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6460843" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5870871" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45933735" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24966533" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24966533" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33333334" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19076306" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24966533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34638554" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24966533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3057229" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -867,7 +1057,7 @@
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USERS">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
     </option>
   </component>
@@ -889,67 +1079,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="392" column="0" selection-start="8378" selection-end="8378" vertical-scroll-proportion="0.0" vertical-offset="7376" max-vertical-offset="9481">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/CustomMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="5" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0" vertical-offset="513" max-vertical-offset="988">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/MsgHeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="2489">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/TcpClientSync.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="8" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0" vertical-offset="266" max-vertical-offset="2603">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="10" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/runClient.cmd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="342" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="420" column="14" selection-start="8792" selection-end="8792" vertical-scroll-proportion="0.0" vertical-offset="7604" max-vertical-offset="9481">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/CustomMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="5" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0" vertical-offset="513" max-vertical-offset="988">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/MsgHeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="2489">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/TcpClientSync.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="8" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0" vertical-offset="266" max-vertical-offset="2603">
@@ -1162,37 +1291,9 @@
         <state line="6" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="342" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="21" selection-start="604" selection-end="604" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/http/HttpTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/jdk7/jre/lib/rt.jar!/javax/net/ssl/KeyManagerFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="45" selection-start="1318" selection-end="1318" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="684">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="19" selection-start="2809" selection-end="2809" vertical-scroll-proportion="0.0" vertical-offset="2163" max-vertical-offset="9481">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/TcpClientSync.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="52" selection-start="2531" selection-end="2793" vertical-scroll-proportion="0.0" vertical-offset="1928" max-vertical-offset="2565">
           <folding />
         </state>
       </provider>
@@ -1204,31 +1305,129 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/jdk7/jre/lib/rt.jar!/javax/net/ssl/SSLContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="43" selection-start="822" selection-end="822" vertical-scroll-proportion="0.33281004" vertical-offset="111" max-vertical-offset="950" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/http/HttpTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/CrashReport/CrashReportWatch/CrashReportWatch.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="30" selection-start="748" selection-end="748" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk7/src.zip!/java/net/Socket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="934" column="0" selection-start="36556" selection-end="36556" vertical-scroll-proportion="0.5835544" vertical-offset="16766" max-vertical-offset="31103">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/util/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="9" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="950">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/proto2cpp.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="-1.52" vertical-offset="0" max-vertical-offset="152">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quote/Pkgheader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="3" selection-start="263" selection-end="263" vertical-scroll-proportion="-6.84" vertical-offset="0" max-vertical-offset="17784">
+          <folding>
+            <element signature="e#0#32878#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pkgheader.proto">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="21" selection-start="256" selection-end="256" vertical-scroll-proportion="9.627451" vertical-offset="719" max-vertical-offset="1064">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk7/src.zip!/java/net/SocketInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="195" column="0" selection-start="5732" selection-end="5732" vertical-scroll-proportion="0.0" vertical-offset="3017" max-vertical-offset="4807">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="31" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/ssl/SSLTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0" vertical-offset="2679" max-vertical-offset="3097">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/sslpb/pb/SslPbTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="144" column="43" selection-start="5444" selection-end="5444" vertical-scroll-proportion="0.0" vertical-offset="2603" max-vertical-offset="3173">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp4/TcpOldTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="33" selection-start="1955" selection-end="1955" vertical-scroll-proportion="0.0" vertical-offset="994" max-vertical-offset="1634">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/CustomMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="678" selection-end="678" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="893">
+        <state line="40" column="18" selection-start="936" selection-end="936" vertical-scroll-proportion="0.5388349" vertical-offset="481" max-vertical-offset="893">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/MsgHeader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="31" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="47" max-vertical-offset="2033">
+        <state line="14" column="28" selection-start="278" selection-end="278" vertical-scroll-proportion="0.3132832" vertical-offset="141" max-vertical-offset="2033">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/jdk7/jre/lib/rt.jar!/javax/net/ssl/SSLContext.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="43" selection-start="822" selection-end="822" vertical-scroll-proportion="0.33281004" vertical-offset="111" max-vertical-offset="950" />
+        <state line="494" column="0" selection-start="10430" selection-end="10430" vertical-scroll-proportion="0.723301" vertical-offset="9088" max-vertical-offset="9500">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/ssl/SSLTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/TcpClientSync.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="49" selection-start="2865" selection-end="2865" vertical-scroll-proportion="1.5268817" vertical-offset="1236" max-vertical-offset="2736">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="28" column="23" selection-start="617" selection-end="617" vertical-scroll-proportion="0.6666667" vertical-offset="228" max-vertical-offset="2565">
+          <folding />
         </state>
       </provider>
     </entry>

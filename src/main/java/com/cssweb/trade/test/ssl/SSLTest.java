@@ -14,6 +14,9 @@ import javax.net.ssl.KeyManager;
  * Created by chenhf on 14-1-24.
  */
 public class SSLTest {
+
+    private static final String SOH = String.valueOf((char)0x01);
+
     public void test()  {
 
         try{
@@ -26,7 +29,7 @@ public class SSLTest {
 
         KeyStore keyStore = KeyStore.getInstance(keyStoreType);
 
-        String keyStoreFile = "e:/pki/ca/trade.keystore.jks";
+        String keyStoreFile = "E:\\Trade\\TradeTest\\src\\main\\resources\\trade_ssl.jks";
 
 
         //InputStream keyFileInputStream = SSLTest.class.getResourceAsStream(keyStoreFile);
@@ -48,7 +51,7 @@ public class SSLTest {
         KeyStore trustStore = KeyStore.getInstance(keyStoreType);
 
 
-        String trustStoreFile = "e:/pki/ca/trade.truststore.jks";
+        String trustStoreFile = "E:\\Trade\\TradeTest\\src\\main\\resources\\trade_ssl.jks";
 
         //InputStream trustFileInputStream = SSLTest.class.getResourceAsStream(trustStoreFile);
         FileInputStream trustFileInputStream = new FileInputStream(trustStoreFile);
@@ -78,17 +81,39 @@ public class SSLTest {
 
         SSLSocketFactory sslSocketFactory = (SSLSocketFactory) SSLSocketFactory.getDefault();
 */
-        SSLSocket sslSocket = (SSLSocket) sslSocketFactory.createSocket("127.0.0.1", 5000);
+        SSLSocket sslSocket = (SSLSocket) sslSocketFactory.createSocket("127.0.0.1", 5003);
 
         boolean bRet = sslSocket.isConnected();
 
         sslSocket.startHandshake();
 
-        String request = "test;";
+            String request = "";
+            request = "cssweb_sysNo=sywg_yht";
+            request += SOH;
+            request += "cssweb_busiType=4";
+            request += SOH;
+            request += "cssweb_funcid=userLogin";
+            request += SOH;
+            request += "cssweb_route=-1";
+            request += SOH;
+            request += "cssweb_hardinfo=127.0.0.1";
+            request += SOH;
+            request += "cssweb_sysVer=iphone";
+            request += SOH;
+
+
+            request += "custid=1653037355";
+            request += SOH;
+
+            request += "userpass=111111";
+            request += SOH;
+
+            request += "idtype=1";
+            request += SOH;
 
         CustomMessage req = new CustomMessage();
         req.setMsgContent(request.getBytes());
-        req.setMsgHeader((byte)0, 0, (byte)0);
+        req.setMsgHeader((byte)0, 1, (byte)0);
 
         DataOutputStream out =  new DataOutputStream(sslSocket.getOutputStream());
 
@@ -109,6 +134,9 @@ public class SSLTest {
 
 
         in.readFully(resp.getMsgContent());
+
+            String response = new String(resp.getMsgContent(), "GBK");
+            System.out.println("response=" + response);
 
         sslSocket.close();
 

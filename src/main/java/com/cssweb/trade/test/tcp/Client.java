@@ -397,7 +397,7 @@ public class Client {
 
     public boolean connect()
     {
-        return connect.connect("127.0.0.1", 6001);
+        return connect.connect("127.0.0.1", 5004);
 
     }
 
@@ -416,9 +416,10 @@ public class Client {
         Client client = new Client();
         client.connect();
         try {
-           // client.ServiceLogin();
-            client.Login();
+            client.ServiceLogin();
+           // client.Login();
             //client.GetAccount();
+
         } catch (Exception e) {
             e.printStackTrace();
         }
