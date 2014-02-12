@@ -31,6 +31,11 @@ public class CustomMessage {
         return msgHeader.getMsgHeader();
     }
 
+    public MsgHeader getMsgHeaderObj()
+    {
+        return msgHeader;
+    }
+
     public void setMsgHeader(byte[] msgHeader) throws IOException {
 
         this.msgHeader.setMsgHeader(msgHeader);

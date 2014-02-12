@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e013e11-a2a7-4615-9361-5f74b126d0e2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/Client.java" afterPath="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/Client.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/CustomMessage.java" afterPath="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/CustomMessage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/sslpb/pb/SslPbTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/sslpb/pb/SslPbTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/TcpClientSync.java" afterPath="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/TcpClientSync.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cssweb/util/Util.java" afterPath="$PROJECT_DIR$/src/main/java/com/cssweb/util/Util.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TradeTest.iws" />
@@ -131,7 +136,7 @@
       <file leaf-file-name="proto2cpp.bat" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/proto2cpp.bat">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="-1.52" vertical-offset="0" max-vertical-offset="152">
+            <state line="2" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="152">
               <folding />
             </state>
           </provider>
@@ -140,10 +145,8 @@
       <file leaf-file-name="Pkgheader.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/quote/Pkgheader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="3" selection-start="263" selection-end="263" vertical-scroll-proportion="-6.84" vertical-offset="0" max-vertical-offset="17784">
-              <folding>
-                <element signature="e#0#32878#0" expanded="true" />
-              </folding>
+            <state line="9" column="3" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="18639">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -154,7 +157,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="21" selection-start="256" selection-end="256" vertical-scroll-proportion="9.627451" vertical-offset="719" max-vertical-offset="1064">
+            <state line="12" column="21" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="719" max-vertical-offset="1064">
               <folding />
             </state>
           </provider>
@@ -163,10 +166,8 @@
       <file leaf-file-name="SslPbTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/sslpb/pb/SslPbTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="144" column="43" selection-start="5444" selection-end="5444" vertical-scroll-proportion="0.0" vertical-offset="2603" max-vertical-offset="3173">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="149" column="0" selection-start="5626" selection-end="5626" vertical-scroll-proportion="0.0" vertical-offset="2398" max-vertical-offset="3211">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -174,7 +175,7 @@
       <file leaf-file-name="SocketInputStream.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://C:/jdk7/src.zip!/java/net/SocketInputStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="195" column="0" selection-start="5732" selection-end="5732" vertical-scroll-proportion="0.0" vertical-offset="3017" max-vertical-offset="4807">
+            <state line="195" column="0" selection-start="5732" selection-end="5732" vertical-scroll-proportion="0.0" vertical-offset="3705" max-vertical-offset="5396">
               <folding />
             </state>
           </provider>
@@ -183,7 +184,7 @@
       <file leaf-file-name="SSLTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/ssl/SSLTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0" vertical-offset="2679" max-vertical-offset="3097">
+            <state line="147" column="32" selection-start="4907" selection-end="4907" vertical-scroll-proportion="0.0" vertical-offset="2128" max-vertical-offset="3097">
               <folding />
             </state>
           </provider>
@@ -201,18 +202,16 @@
       <file leaf-file-name="TcpOldTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp4/TcpOldTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="33" selection-start="1955" selection-end="1955" vertical-scroll-proportion="0.0" vertical-offset="994" max-vertical-offset="1634">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="77" column="5" selection-start="2127" selection-end="2127" vertical-scroll-proportion="0.0" vertical-offset="1138" max-vertical-offset="1539">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TcpClientSync.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/TcpClientSync.java">
+      <file leaf-file-name="Client.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="23" selection-start="617" selection-end="617" vertical-scroll-proportion="0.6666667" vertical-offset="228" max-vertical-offset="2565">
+            <state line="13" column="47" selection-start="305" selection-end="305" vertical-scroll-proportion="0.6159601" vertical-offset="0" max-vertical-offset="9557">
               <folding />
             </state>
           </provider>
@@ -221,8 +220,10 @@
       <file leaf-file-name="Util.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/util/Util.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="9" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="950">
-              <folding />
+            <state line="69" column="19" selection-start="1825" selection-end="1825" vertical-scroll-proportion="0.0" vertical-offset="922" max-vertical-offset="1691">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -241,17 +242,18 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/CustomMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/TcpClientSync.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/MsgHeader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp4/TcpOldTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/ssl/SSLTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/proto2cpp.bat" />
         <option value="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/sslpb/pb/quote/Pkgheader.java" />
         <option value="$PROJECT_DIR$/src/main/resources/quote/Pkgheader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cssweb/util/Util.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/sslpb/pb/SslPbTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/CustomMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/TcpClientSync.java" />
       </list>
     </option>
   </component>
@@ -311,6 +313,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -422,6 +425,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cssweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -593,7 +600,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -613,7 +619,7 @@
     <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../XinYi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RecentsManager">
@@ -946,9 +952,9 @@
     <recent_temporary>
       <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Application.Client" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TcpOldTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SSLTest" />
         <item index="2" class="java.lang.String" itemvalue="Application.SslPbTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SSLTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TcpOldTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -993,7 +999,10 @@
       <workItem from="1390646690556" duration="1503000" />
       <workItem from="1390970387714" duration="621000" />
       <workItem from="1391486778959" duration="2069000" />
-      <workItem from="1391994325644" duration="19694000" />
+      <workItem from="1391994325644" duration="19727000" />
+      <workItem from="1392021031239" duration="1013000" />
+      <workItem from="1392098401718" duration="1805000" />
+      <workItem from="1392172445077" duration="9588000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1390537310283</created>
@@ -1011,11 +1020,15 @@
       <created>1392019389995</created>
       <updated>1392019389995</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initial commit&#10;">
+      <created>1392019411332</created>
+      <updated>1392019411332</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91169000" />
+    <option name="totallyTimeSpent" value="103608000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="824" extended-state="6" />
@@ -1026,7 +1039,6 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49698794" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1042,10 +1054,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19076306" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24966533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3057229" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32228917" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1072,13 +1085,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/TcpClientSync.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="8" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0" vertical-offset="266" max-vertical-offset="2603">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="10" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
@@ -1286,9 +1292,7 @@
     </entry>
     <entry file="jar://C:/jdk7/jre/lib/rt.jar!/javax/net/ssl/KeyManagerFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="45" selection-start="1318" selection-end="1318" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="684">
-          <folding />
-        </state>
+        <state line="25" column="45" selection-start="1318" selection-end="1318" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="684" />
       </provider>
     </entry>
     <entry file="jar://C:/jdk7/src.zip!/java/io/DataOutputStream.java">
@@ -1305,45 +1309,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/http/HttpTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/CrashReport/CrashReportWatch/CrashReportWatch.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="30" selection-start="748" selection-end="748" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418">
-          <folding />
-        </state>
+        <state line="5" column="13" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247" />
       </provider>
     </entry>
     <entry file="jar://C:/jdk7/src.zip!/java/net/Socket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="934" column="0" selection-start="36556" selection-end="36556" vertical-scroll-proportion="0.5835544" vertical-offset="16766" max-vertical-offset="31103">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/util/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="9" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="950">
-          <folding />
-        </state>
+        <state line="934" column="0" selection-start="36556" selection-end="36556" vertical-scroll-proportion="0.5835544" vertical-offset="16766" max-vertical-offset="31103" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/proto2cpp.bat">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="-1.52" vertical-offset="0" max-vertical-offset="152">
+        <state line="2" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="152">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/quote/Pkgheader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="3" selection-start="263" selection-end="263" vertical-scroll-proportion="-6.84" vertical-offset="0" max-vertical-offset="17784">
-          <folding>
-            <element signature="e#0#32878#0" expanded="true" />
-          </folding>
+        <state line="9" column="3" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="18639">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1352,7 +1336,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="21" selection-start="256" selection-end="256" vertical-scroll-proportion="9.627451" vertical-offset="719" max-vertical-offset="1064">
+        <state line="12" column="21" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="719" max-vertical-offset="1064">
           <folding />
         </state>
       </provider>
@@ -1373,53 +1357,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/ssl/SSLTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0" vertical-offset="2679" max-vertical-offset="3097">
+        <state line="147" column="32" selection-start="4907" selection-end="4907" vertical-scroll-proportion="0.0" vertical-offset="2128" max-vertical-offset="3097">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk7/src.zip!/java/io/ByteArrayOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="9" selection-start="1649" selection-end="1649" vertical-scroll-proportion="-5.0359936" vertical-offset="4206" max-vertical-offset="4845">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/util/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="19" selection-start="1825" selection-end="1825" vertical-scroll-proportion="0.0" vertical-offset="922" max-vertical-offset="1691">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/sslpb/pb/SslPbTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="43" selection-start="5444" selection-end="5444" vertical-scroll-proportion="0.0" vertical-offset="2603" max-vertical-offset="3173">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="149" column="0" selection-start="5626" selection-end="5626" vertical-scroll-proportion="0.0" vertical-offset="2398" max-vertical-offset="3211">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/CrashReport/CrashReportWatch/CrashReportWatch.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="30" selection-start="748" selection-end="748" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp4/TcpOldTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="33" selection-start="1955" selection-end="1955" vertical-scroll-proportion="0.0" vertical-offset="994" max-vertical-offset="1634">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/CustomMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="18" selection-start="936" selection-end="936" vertical-scroll-proportion="0.5388349" vertical-offset="481" max-vertical-offset="893">
+        <state line="77" column="5" selection-start="2127" selection-end="2127" vertical-scroll-proportion="0.0" vertical-offset="1138" max-vertical-offset="1539">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/MsgHeader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="28" selection-start="278" selection-end="278" vertical-scroll-proportion="0.3132832" vertical-offset="141" max-vertical-offset="2033">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="494" column="0" selection-start="10430" selection-end="10430" vertical-scroll-proportion="0.723301" vertical-offset="9088" max-vertical-offset="9500">
+        <state line="37" column="5" selection-start="717" selection-end="717" vertical-scroll-proportion="0.33247423" vertical-offset="365" max-vertical-offset="2033">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/TcpClientSync.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="23" selection-start="617" selection-end="617" vertical-scroll-proportion="0.6666667" vertical-offset="228" max-vertical-offset="2565">
+        <state line="81" column="65" selection-start="1859" selection-end="1859" vertical-scroll-proportion="0.55927837" vertical-offset="1246" max-vertical-offset="2736">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/CustomMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="245" selection-end="245" vertical-scroll-proportion="0.37905237" vertical-offset="57" max-vertical-offset="931">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/trade/test/tcp/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="47" selection-start="305" selection-end="305" vertical-scroll-proportion="0.6159601" vertical-offset="0" max-vertical-offset="9557">
           <folding />
         </state>
       </provider>

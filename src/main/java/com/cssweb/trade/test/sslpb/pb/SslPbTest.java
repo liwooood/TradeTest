@@ -1,5 +1,6 @@
 package com.cssweb.trade.test.sslpb.pb;
 
+import com.cssweb.util.Util;
 import quote.Pkgheader;
 
 import javax.net.ssl.*;
@@ -141,8 +142,19 @@ public class SslPbTest {
             byte[] res_pkgbody = new byte[res_pkgbody_length];
             in.readFully(res_pkgbody, 0, res_pkgbody_length);
 
-String response = new String(res_pkgbody, "GBK");
-System.out.println("response=" + response);
+            if (res_pkgheader_.getZip())
+            {
+                byte[] msgContent = Util.decompress(res_pkgbody);
+                String response = new String(msgContent, "GBK");
+                System.out.println("response=" + response);
+
+            }
+            else
+            {
+
+                 String response = new String(res_pkgbody, "GBK");
+                System.out.println("response=" + response);
+            }
 
         }catch(Exception  e){
             e.printStackTrace();

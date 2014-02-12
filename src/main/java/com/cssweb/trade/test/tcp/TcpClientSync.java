@@ -1,5 +1,7 @@
 package com.cssweb.trade.test.tcp;
 
+import com.cssweb.util.Util;
+
 import java.io.*;
 import java.net.InetSocketAddress;
 import java.net.Socket;
@@ -75,7 +77,16 @@ public class TcpClientSync {
 
 
         try {
-            System.out.println("应答内容：" + new String(resp.getMsgContent(), "GBK"));
+            if (resp.getMsgHeaderObj().getZip() == 1)
+            {
+                byte[] msgContent = Util.decompress(resp.getMsgContent());
+                System.out.println("应答内容：" + new String(msgContent, "GBK"));
+            }
+            else
+            {
+                System.out.println("应答内容：" + new String(resp.getMsgContent(), "GBK"));
+            }
+
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }

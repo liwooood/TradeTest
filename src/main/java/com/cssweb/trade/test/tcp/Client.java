@@ -109,7 +109,8 @@ public class Client {
         request += "account=1655131032";
         request += SOH;
 
-        request += "pwd=135246";
+       request += "pwd=135246";
+        //request += "pwd=13524"; // π “‚∏„¥Ì√‹¬Î
         request += SOH;
 
         //request += "op_code=0";
@@ -153,8 +154,8 @@ public class Client {
         request += "account=1655131032";
         request += SOH;
 
-        //request += "pwd=246135";
-        //request += SOH;
+        request += "pwd=135246";
+        request += SOH;
 
         request += "max_results=0";
         request += SOH;
@@ -416,9 +417,11 @@ public class Client {
         Client client = new Client();
         client.connect();
         try {
-            client.ServiceLogin();
-           // client.Login();
-            //client.GetAccount();
+            //client.ServiceLogin();
+           client.Login();
+           // client.QueryAccount();
+          //  client.OpenAccount();;
+            client.GetAccount();
 
         } catch (Exception e) {
             e.printStackTrace();
