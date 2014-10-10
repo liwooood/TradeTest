@@ -106,11 +106,13 @@ public class Client {
         request += "account_type=0";
         request += SOH;
 
-        request += "account=1655131032";
+        // otc’Àªß1672041899 135246
+        request += "account=1672041921";
+      //  request += "account=1653037355";
         request += SOH;
 
-       request += "pwd=135246";
-        //request += "pwd=13524"; // π “‚∏„¥Ì√‹¬Î
+
+       request += "pwd=135246"; // π “‚∏„¥Ì√‹¬Î
         request += SOH;
 
         //request += "op_code=0";
@@ -124,6 +126,38 @@ public class Client {
 
         request += "note=127.0.0.1-null";
         request += SOH;
+
+
+        connect.send(request,0x111);
+    }
+
+    public void f311() throws Exception
+    {
+        request = "cssweb_sysNo=sywg_yht";
+        request += SOH;
+        request += "cssweb_busiType=1";
+        request += SOH;
+        request += "cssweb_funcid=0x311";
+        request += SOH;
+        request += "cssweb_route=-1";
+        request += SOH;
+        request += "cssweb_hardinfo=127.0.0.1";
+        request += SOH;
+        request += "cssweb_sysVer=iphone";
+        request += SOH;
+
+
+        request += "account_type=0";
+        request += SOH;
+
+        // otc’Àªß1672041899 135246
+        request += "account=1653037355";
+        request += SOH;
+
+        request += "currency_type=1";
+        request += SOH;
+
+
 
 
         connect.send(request,0x111);
@@ -162,6 +196,129 @@ public class Client {
 
 
         connect.send(request,0x400);
+    }
+
+    public void otcQueryProduct() throws Exception
+    {
+        request = "cssweb_sysNo=sywg_yht";
+        request += SOH;
+        request += "cssweb_busiType=1";
+        request += SOH;
+        request += "cssweb_funcid=0x4601";
+        request += SOH;
+        request += "cssweb_route=-1";
+        request += SOH;
+        request += "cssweb_hardinfo=127.0.0.1";
+        request += SOH;
+        request += "cssweb_sysVer=iphone";
+        request += SOH;
+
+
+
+        request += "inst_id=";
+        request += SOH;
+
+
+
+        connect.send(request,0x400);
+    }
+
+    public void otc4603() throws Exception
+    {
+        request = "cssweb_sysNo=sywg_yht";
+        request += SOH;
+        request += "cssweb_busiType=1";
+        request += SOH;
+        request += "cssweb_funcid=0x4603";
+        request += SOH;
+        request += "cssweb_route=-1";
+        request += SOH;
+        request += "cssweb_hardinfo=127.0.0.1";
+        request += SOH;
+        request += "cssweb_sysVer=iphone";
+        request += SOH;
+
+
+        request += "account=1672041921";
+        request += SOH;
+
+        request += "query_type=1";
+        request += SOH;
+
+        request += "begin_date=20140514";
+        request += SOH;
+
+        request += "end_date=20140530";
+        request += SOH;
+
+        request += "inst_id=";
+        request += SOH;
+
+        request += "query_flag=1";
+        request += SOH;
+
+
+        connect.send(request,0x400);
+    }
+
+    public void otc4606() throws Exception
+    {
+        request = "cssweb_sysNo=sywg_yht";
+        request += SOH;
+        request += "cssweb_busiType=1";
+        request += SOH;
+        request += "cssweb_funcid=0x4606";
+        request += SOH;
+        request += "cssweb_route=-1";
+        request += SOH;
+        request += "cssweb_hardinfo=127.0.0.1";
+        request += SOH;
+        request += "cssweb_sysVer=iphone";
+        request += SOH;
+
+
+        request += "account=1672041921";
+        request += SOH;
+
+
+
+        request += "begin_date=20140101";
+        request += SOH;
+
+        request += "end_date=20140520";
+        request += SOH;
+
+
+
+
+        connect.send(request,0x400);
+    }
+
+    public void otc4605() throws Exception
+    {
+        request = "cssweb_sysNo=sywg_yht";
+        request += SOH;
+        request += "cssweb_busiType=1";
+        request += SOH;
+        request += "cssweb_funcid=0x4605";
+        request += SOH;
+        request += "cssweb_route=-1";
+        request += SOH;
+        request += "cssweb_hardinfo=127.0.0.1";
+        request += SOH;
+        request += "cssweb_sysVer=iphone";
+        request += SOH;
+
+
+        request += "account=1672041921";
+        request += SOH;
+
+
+
+        request += "inst_id=";
+        request += SOH;
+
+              connect.send(request,0x400);
     }
 
     // 704
@@ -252,6 +409,38 @@ public class Client {
         connect.send(request,0x705);
     }
 
+    public void f706() throws Exception
+    {
+        request = "cssweb_sysNo=sywg_yht";
+        request += SOH;
+        request += "cssweb_busiType=1";
+        request += SOH;
+        request += "cssweb_funcid=0x706";
+        request += SOH;
+        request += "cssweb_route=-1";
+        request += SOH;
+        request += "cssweb_hardinfo=127.0.0.1";
+        request += SOH;
+        request += "cssweb_sysVer=iphone";
+        request += SOH;
+
+        request += "account=1672041899";
+        request += SOH;
+
+        request += "banktrans_sn=0";
+        request += SOH;
+
+        request += "flag=0";
+        request += SOH;
+
+        request += "flag2=0";
+        request += SOH;
+
+
+
+        connect.send(request,0x706);
+    }
+
     public void f301() throws Exception
     {
 
@@ -287,16 +476,15 @@ public class Client {
 
         connect.send(request,0x301);
     }
-    public void f311() throws Exception
+
+
+    public void otc2601() throws Exception
     {
-
-
         request = "cssweb_sysNo=sywg_yht";
         request += SOH;
         request += "cssweb_busiType=1";
         request += SOH;
-        request += "cssweb_funcid=0x311";
-        request += SOH;
+
         request += "cssweb_route=-1";
         request += SOH;
         request += "cssweb_hardinfo=127.0.0.1";
@@ -304,93 +492,20 @@ public class Client {
         request += "cssweb_sysVer=iphone";
         request += SOH;
 
-        request += "cssweb_connid=1655131032_1";
-        request += SOH;
-
-
-        request += "account_type=0";
-        request += SOH;
-
-        request += "account=131032";
-        request += SOH;
-
-
-        request += "currency_type=0";
-        request += SOH;
-
-
-
-        connect.send(request,0x311);
-    }
-
-    public void f2601() throws Exception
-    {
-
-
-        request = "cssweb_sysNo=sywg_yht";
-        request += SOH;
-        request += "cssweb_busiType=1";
-        request += SOH;
         request += "cssweb_funcid=0x2601";
         request += SOH;
-        request += "cssweb_route=-1";
+        request += "account=1672041899";
         request += SOH;
-        request += "cssweb_hardinfo=127.0.0.1";
+        request += "bs_type=111";
         request += SOH;
-        request += "cssweb_sysVer=iphone";
+        request += "inst_id=555554";
         request += SOH;
-
-        request += "cssweb_connid=1655131032_1";
+        request += "app_amt=1000";
         request += SOH;
-
-
-
-
-        request += "account=1655131032";
+        request += "redeem_num=100";
         request += SOH;
 
 
-        request += "bs_type=7";
-        request += SOH;
-
-        request += "ta_code=001";
-        request += SOH;
-
-        request += "security_code=202002";
-        request += SOH;
-
-        request += "fund_amount=";
-        request += SOH;
-
-        request += "price=";
-        request += SOH;
-
-        request += "effect_days=";
-        request += SOH;
-
-        request += "apply_amount=1000";
-        request += SOH;
-
-        request += "mark=";
-        request += SOH;
-
-        request += "MarketOrder_type=";
-        request += SOH;
-
-        request += "match_type=";
-        request += SOH;
-
-        request += "contract_no=";
-        request += SOH;
-
-        request += "contact_name=";
-        request += SOH;
-
-        request += "contact_tel=";
-        request += SOH;
-
-        request += "Entrust_sign= ";
-        request += SOH;
 
         connect.send(request,0x2601);
     }
@@ -398,7 +513,7 @@ public class Client {
 
     public boolean connect()
     {
-        return connect.connect("127.0.0.1", 5004);
+        return connect.connect("127.0.0.1", 6000);
 
     }
 
@@ -417,11 +532,16 @@ public class Client {
         Client client = new Client();
         client.connect();
         try {
-            //client.ServiceLogin();
+           // client.ServiceLogin();
            client.Login();
+           // client.f311();
+           // client.otc4603();
+            //client.otc4605();
+            //client.otc4606();
+            //client.f706();
            // client.QueryAccount();
           //  client.OpenAccount();;
-            client.GetAccount();
+           // client.GetAccount();
 
         } catch (Exception e) {
             e.printStackTrace();
